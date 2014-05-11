@@ -66,6 +66,15 @@ def step15
   @message = "ごきげんいかが？¥nRailsの勉強をがんばりましょう。"
 end
 
+def step18
+  @zaiko = 10
+end
+
+def step19
+  @items = { "フライパン" => 2680, "ワイングラス" => 2550,
+             "ペッパーミル" => 4515, "ピーラー" => 945 }
+end
+
 private
 def do_before
   @message ="こんにちは"

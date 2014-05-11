@@ -1,0 +1,12 @@
+<table border="1" cellpadding="4">
+  <tr>
+    <td align="center">商品名</td>
+    <td align="center">金額</td>
+  </tr>
+  <% @items.each do |key, val| %>
+  <tr>
+    <td align="center"><%= key %></td>
+    <td align ="right"><%= number_with_delimiter(val) %>円</td>
+  </tr>
+  <% end %>
+</table>
